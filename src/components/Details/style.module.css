@@ -1,0 +1,59 @@
+.chip {
+    margin: '5px 5px 5px 0',
+  }
+
+.Cards {
+    overflow:'hidden';
+   box-shadow: 0 2px 20px  grey;
+   border-radius: 20px;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   cursor: pointer;
+   transition: transform 200ms ease-in;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+
+.img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  padding:1rem;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-style: normal; */
+  font-weight: bold;
+  height: 4rem;
+}
+
+.box {
+  display:flex;
+  justify-content :space-between;
+ 
+  margin-left :1rem;
+
+}
+
+.subtitle {
+  display: 'flex', align = 'center', justifyContent = 'space-between', margin = '1rem',
+}
+
+.btn {
+  padding:1rem;
+  font-family:inherit;
+  font-weight: bold;
+  margin:1rem;
+  border:2px;
+  border-radius: 1rem;
+  transition: background 200ms ease-in;
+  margin: 1rem;
+  align-self: center;
+  
+}
+
+.Cards:hover{
+  transform:scale(1.02);
+}
+

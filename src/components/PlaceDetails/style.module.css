@@ -1,0 +1,22 @@
+.title {
+  font-size: 2rem;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+ .spacing {
+    display: 'flex', align = 'center', justifyContent ='space-between',
+  }
+  
+  .GridC {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 16rem));
+    gap: 1rem; 
+    justify-content: center;
+  }
+
+  body{
+
+    margin-top: 2rem;
+  }
+ 
