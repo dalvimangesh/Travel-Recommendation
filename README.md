@@ -27,3 +27,6 @@ python3, pyspark ( version 3.3 recommended ) , java
 
 ### Setup
 run `python3 hotel_rec.py` to start <br>
+
+
+Doc: https://docs.google.com/document/d/1xZhH8Uah52Zrfog6Su2cf2wv0rs48vgo6qMeLyal8MY/edit#heading=h.rcwnzvxibxbj
